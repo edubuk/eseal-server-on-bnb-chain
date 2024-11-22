@@ -3,11 +3,11 @@ import cors from 'cors';
 import connectDB from './config/db.js';
 import accessRouter from './routes/routes.js';
 import dotenv from 'dotenv'
-
+import { generateToken } from './middleware/auth.js';
 
 dotenv.config();
 const app = express();
-
+//generateToken();
 
 // connected to database
 connectDB();

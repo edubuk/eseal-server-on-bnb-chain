@@ -7,7 +7,7 @@ export const generateToken =()=> {
 // Set `noTimestamp` to true to exclude `iat`
 //const options = { noTimestamp: true };
 const tokenPayLoad = {service:payloadData};
-const nonExpiryToken = jwt.sign(tokenPayLoad,secret_key);
+const nonExpiryToken = jwt.sign(tokenPayLoad,secret_Key);
 console.log("Token : ",nonExpiryToken)
 }
 
