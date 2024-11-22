@@ -7,7 +7,7 @@ import { generateToken } from './middleware/auth.js';
 
 dotenv.config();
 const app = express();
-//generateToken();
+
 
 // connected to database
 connectDB();
