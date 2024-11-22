@@ -1,2 +1,2 @@
 # eseal-on-bnb-chain
-Edubuk's eSeal backend 
+Edubuk eSeal backend 
